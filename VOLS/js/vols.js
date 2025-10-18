@@ -1,0 +1,42 @@
+const volsDisponibles = [
+  {
+    id: 1,
+    villeDepart: "Paris",
+    villeArrivee: "New York",
+    dateDepart: "2025-03-15",
+    heureDepart: "10:00",
+    prix: 450,
+  },
+  {
+    id: 2,
+    villeDepart: "Paris",
+    villeArrivee: "Tokyo",
+    dateDepart: "2025-03-18",
+    heureDepart: "14:00",
+    prix: 600,
+  },
+  {
+    id: 3,
+    villeDepart: "Paris",
+    villeArrivee: "Dubaï",
+    dateDepart: "2025-03-20",
+    heureDepart: "09:00",
+    prix: 350,
+  },
+  {
+    id: 4,
+    villeDepart: "Paris",
+    villeArrivee: "Montréal",
+    dateDepart: "2025-03-22",
+    heureDepart: "12:00",
+    prix: 400,
+  },
+  {
+    id: 5,
+    villeDepart: "Paris",
+    villeArrivee: "Sydney",
+    dateDepart: "2025-03-25",
+    heureDepart: "20:00",
+    prix: 800,
+  },
+];

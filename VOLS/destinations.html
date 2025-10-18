@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Destinations - SkyWay Connect</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!---->
+    <header>
+      <a href="index.html" class="logo">SkyWay Connect</a>
+      <nav>
+        <ul>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+          <li>
+            <a href="destinations.html" class="active">Nos Destinations</a>
+          </li>
+          <li><a href="historique.html">Historique</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- <main class="destinations-page">
+      <section
+        class="search-container"
+        style="margin-bottom: 20px; text-align: center"
+      >
+        <h2
+          style="
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 100px;
+            margin-top: 50px;
+          "
+        >
+          Rechercher un vol
+        </h2>
+        <form
+          id="search-form"
+          class="search-form"
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <input
+            type="text"
+            id="departure"
+            placeholder="Ville de départ"
+            required
+            style="width: 300px; height: 40px; text-align: center"
+          />
+          <input
+            type="text"
+            id="destination"
+            placeholder="Ville d'arrivée"
+            required
+            style="width: 300px; height: 40px; text-align: center"
+          />
+          <input
+            type="date"
+            id="date"
+            required
+            style="width: 300px; height: 40px; text-align: center"
+          />
+          <button type="submit">Rechercher</button>
+        </form>
+      </section>
+
+      <div class="destination">
+        <h3>Paris</h3>
+        <button class="reservation-button" data-destination-name="Paris">
+          Réserver
+        </button>
+      </div>
+
+      <div class="destination">
+        <h3>New York</h3>
+        <button class="reservation-button" data-destination-name="New York">
+          Réserver
+        </button>
+      </div>
+
+      <div class="destination">
+        <h3>Dubai</h3>
+        <button class="reservation-button" data-destination-name="Dubai">
+          Réserver
+        </button>
+      </div>
+    </main>  -->
+    <div class="recherche-vols">
+      <input
+        type="text"
+        id="depart"
+        placeholder="Ville de départ (ex: Paris)"
+      />
+      <input
+        type="text"
+        id="arrivee"
+        placeholder="Ville d'arrivée (ex: New York)"
+      />
+      <input type="date" id="date-vol" />
+      <button id="btn-rechercher">Rechercher un vol</button>
+    </div>
+
+    <div class="vols-container">
+      <!--Effectuez une recherche pour afficher les vols disponibles-->
+    </div>
+
+    <footer>
+      <p>&copy; 2025 SkyWay Connect. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Données des vols -->
+    <script src="../js/vols.js"></script>
+
+    <!-- Ton script principal pour afficher les vols -->
+    <script src="../js/destinations.js"></script>
+  </body>
+</html>
