@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <!-- Header -->
     <header>
       <a href="../index.html" class="logo">
         <i class="fas fa-plane"></i>
@@ -33,9 +32,12 @@
       <div class="historique-container">
         <div class="historique-filters">
           <div class="historique-exports">
-            <button id="export-csv" class="btn-export">Exporter en CSV</button>
-
-            <button id="export-pdf" class="btn-export">Exporter en PDF</button>
+            <button id="export-csv" class="btn-export">
+              <i class="fas fa-file-csv"></i> Exporter en CSV
+            </button>
+            <button id="export-pdf" class="btn-export">
+              <i class="fas fa-file-pdf"></i> Exporter en PDF
+            </button>
           </div>
 
           <select id="filter-status">
@@ -57,13 +59,9 @@
     <footer>
       <p>&copy; 2025 SkyWay Connect. Tous droits réservés.</p>
     </footer>
-    <!-- jsPDF version stable -->
+
     <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-
-    <!-- autoTable compatible et stable -->
     <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.1/dist/jspdf.plugin.autotable.min.js"></script>
-
-    <!-- Ton fichier JS à la fin -->
-    <script src="../js/historique.js?version=16"></script>
+    <script src="../js/historique.js"></script>
   </body>
 </html>
